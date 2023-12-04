@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y \
     postgresql-contrib-15 \
     postgresql-server-dev-15 \
     git \
-    && git clone https://github.com/powa-team/powa-archivist.git \
+    && git clone https://github.com/powa-team/powa-archivist.git --branch v5 \
     && git clone https://github.com/powa-team/pg_qualstats.git \
     && git clone https://github.com/powa-team/pg_stat_kcache.git \
     && git clone https://github.com/hypopg/hypopg.git --branch REL1_STABLE \
