@@ -32,6 +32,8 @@ services:
   powa-web-git:
     image: powateam/powa-web-git
     container_name: powa-git-web
+    environment:
+      DEBUG: "false"
     ports:
       - 8888:8888
     links:
